@@ -1,4 +1,4 @@
-WireFrame for Portfolio : 
+WireFrame for Portfolio : https://thinkful-ei-heron.github.io/maria-portfolio-wf/.
 
 1. The color for the HTML wire-frame are various shades of gray.
 
