@@ -1,0 +1,200 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Open Sans",sans-serif; 
+    font-size: 20px;
+    color: #444;
+    text-align: center;
+    line-height: 1.5;
+    margin: px;
+   
+  }
+  html {
+    align-content: 
+  }
+  
+  /* nav,
+  footer {
+    padding: 1% 0;
+    background-color: #aaa;
+  } */
+  
+  nav {
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+  
+  }
+  .navigation {
+    background-color: #808080;
+    height: 60px;
+  }
+  
+  button {
+    font-size: 20px;
+  }
+  
+  header {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font: 30px;
+  }
+  .name-header {
+    padding-top: 50px;
+  }
+  .menu {
+    display: none;
+    list-style-type: none;
+    display: flex; 
+    justify-content: space-evenly;
+    visibility: hidden;
+    background: gray;
+    padding: 5px 5px 5px 0;
+    color: white;
+  }
+  .menu ul {
+  padding-top: 0px;
+  }
+  .menu li{
+    margin-right: 20px;
+    color: white;
+    font-weight: bold;
+    padding: 15px;
+  
+  }
+  
+  section {
+    min-height: 200px;
+    padding: 6% 0;
+    background-color: #bbb;
+    
+  }
+  
+  section:nth-child(even) {
+    background-color: #ddd;
+  }
+    
+    .hamburger {
+      display: flex;
+      justify-content: flex-end;
+      padding: 5px 5px 5px 0;
+      background: gray;    color: white;
+    
+    }
+    .opening-line {
+      padding: 30px;
+    }
+    .about-me-container {
+      display: flex;
+      flex-direction: column;
+      padding: 30px;
+      text-align: center;
+  
+    }
+  
+    .travel-quiz-info {
+      padding: 30px
+    }
+    
+    .quiz-logos {
+      list-style-type: none;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      font-size: 30px;
+  
+      
+    }
+   .contact-info-container {
+     padding: 30px; 
+   }
+   .contact-info-text  {
+     list-style-type: none;
+   }
+   .contact-info-logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 30px;
+   }
+  
+  
+    /* .form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    } */
+    
+    .contact-me-container {
+      display: flex;
+      flex-direction: column;
+      padding: 30px;
+  
+    }
+    form {
+      text-align: center;
+    }
+    textarea {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 100%;
+    }
+  
+  
+  
+  
+    @media screen and (min-width: 520px) {
+      /* header {
+       display: flex;
+       flex-direction: row;
+       justify-content: space-evenly;
+      }
+     main {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: space-evenly;
+       
+      }
+      section.product {
+        width: 100%;
+      } */
+  
+  }
+  
+  
+  
+  
+  
+  /*Wide screen*/
+  @media screen and (min-width: 800px) {
+    .menu {
+      visibility: visible;
+     }
+     .hamburger {
+      visibility: hidden;
+     }
+     
+     
+     /* header {
+       display: flex;
+       flex-direction: row;
+       justify-content: space-evenly;  
+     }
+   
+  
+     main {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+     }
+     section.product{
+       margin:10px; 
+     } */
+  }
